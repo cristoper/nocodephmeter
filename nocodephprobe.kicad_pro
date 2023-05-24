@@ -48,7 +48,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -165,8 +171,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -178,8 +191,7 @@
   },
   "erc": {
     "erc_exclusions": [
-      "power_pin_not_driven|457200|1409700|9ce7a5aa-3e18-4837-bf82-df152dd9716f|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|495300|1612900|9ce7a5aa-3e18-4837-bf82-df152dd9716f|00000000-0000-0000-0000-000000000000|||"
+      "power_pin_not_driven|457200|1409700|9ce7a5aa-3e18-4837-bf82-df152dd9716f|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {
       "version": 0

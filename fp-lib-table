@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "STX-3120-3B")(type "KiCad")(uri "${KIPRJMOD}/STX-3120-3B")(options "")(descr ""))
+)
