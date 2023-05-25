@@ -1480,6 +1480,9 @@
   (junction (at 27.94 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 2cf5f208-6da3-4982-ace6-815bbc04c124)
   )
+  (junction (at 203.2 100.33) (diameter 0) (color 0 0 0 0)
+    (uuid 3a5c6fc8-8837-4689-9d76-25a2be919bd3)
+  )
   (junction (at 72.39 100.33) (diameter 0) (color 0 0 0 0)
     (uuid 3a6ace37-f7e2-40a7-beea-a20ef3af6806)
   )
@@ -2582,6 +2585,32 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 207.01 100.33 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1b76741f-fa1a-4de9-b322-3ffd96d238a5)
+    (property "Reference" "C7" (at 207.01 104.14 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0.1uF" (at 207.01 96.52 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 210.82 99.3648 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 207.01 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 951fa0b0-ddff-4160-b547-cfd6a36c0b52))
+    (pin "2" (uuid 774aa82f-3b2b-4b34-ae79-8ca060391f70))
+    (instances
+      (project "nocodephprobe"
+        (path "/2036f74b-8ede-4e4d-84df-8cc119de9ab1"
+          (reference "C7") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Amplifier_Operational:LMV358") (at 125.73 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 209a1e0e-7bba-4749-86f9-96e1cecedd63)
@@ -2787,31 +2816,6 @@
       (project "nocodephprobe"
         (path "/2036f74b-8ede-4e4d-84df-8cc119de9ab1"
           (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:-VDC") (at 210.82 26.67 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 32edea1a-ccb9-4629-8452-e6772a72cd7c)
-    (property "Reference" "#PWR011" (at 208.28 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "-VDC" (at 217.17 27.305 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 210.82 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 210.82 26.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 949386c9-d92c-4db2-b59f-f028b9fc735c))
-    (instances
-      (project "nocodephprobe"
-        (path "/2036f74b-8ede-4e4d-84df-8cc119de9ab1"
-          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3538,6 +3542,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 210.82 100.33 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c8e50b57-8829-4ed2-9f03-4ac94a09b571)
+    (property "Reference" "#PWR011" (at 210.82 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 210.82 105.41 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 210.82 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 210.82 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2e2aca0a-898d-4e62-bb13-2d0fd2af9f96))
+    (instances
+      (project "nocodephprobe"
+        (path "/2036f74b-8ede-4e4d-84df-8cc119de9ab1"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 57.15 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb2ab573-5245-4bdc-b84a-1e2c388b35a1)
@@ -3757,6 +3786,31 @@
       (project "nocodephprobe"
         (path "/2036f74b-8ede-4e4d-84df-8cc119de9ab1"
           (reference "#FLG02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 210.82 26.67 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid dfba28b0-a4b5-481e-9fbb-31b72d76abc8)
+    (property "Reference" "#PWR010" (at 210.82 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 210.82 31.75 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 210.82 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 210.82 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 784ba0fc-e935-4f5e-9619-7a8d02170328))
+    (instances
+      (project "nocodephprobe"
+        (path "/2036f74b-8ede-4e4d-84df-8cc119de9ab1"
+          (reference "#PWR010") (unit 1)
         )
       )
     )
