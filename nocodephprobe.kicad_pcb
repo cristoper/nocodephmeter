@@ -260,7 +260,7 @@
 
   (footprint "Connector_Molex:Molex_KK-396_A-41792-0002_1x02_P3.96mm_Horizontal" (layer "F.Cu")
     (tstamp 16bbdc78-68d7-4447-9b64-ed9c122ed00a)
-    (at 85.23 129.095 180)
+    (at 121.75 113 90)
     (descr "Molex KK 396 Interconnect System, old/engineering part number: A-41792-0002 example for new part number: 26-60-5020, 2 Pins (https://www.molex.com/pdm_docs/sd/026605050_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-396 horizontal")
     (property "Sheetfile" "nocodephprobe.kicad_sch")
@@ -273,15 +273,15 @@
     (property "ki_keywords" "battery cell")
     (path "/98946c76-84df-45cf-84da-bda5657a4031")
     (attr through_hole)
-    (fp_text reference "BAT1" (at 1.98 -9.91) (layer "F.SilkS")
+    (fp_text reference "BAT1" (at 1.98 -9.91 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 02a67deb-d535-408c-a9bd-b291b01902dc)
     )
-    (fp_text value "9V" (at 1.98 3.6) (layer "F.Fab")
+    (fp_text value "9V" (at 1.98 3.6 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f01ef8d5-5274-4af4-8258-35f2124dd035)
     )
-    (fp_text user "${REFERENCE}" (at 1.98 -8.01) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 1.98 -8.01 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f1cc2f14-c182-457c-85a3-2bbbfdf549e9)
     )
@@ -327,9 +327,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 62d15686-3028-45ff-9a67-0f434686a4de))
     (fp_line (start 5.865 2.4) (end -1.905 2.4)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d75edeb6-1433-4d7a-9e94-ee16f02feedf))
-    (pad "1" thru_hole roundrect (at 0 0 180) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.079114)
+    (pad "1" thru_hole roundrect (at 0 0 90) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.079114)
       (net 1 "+VDC") (pinfunction "+") (pintype "passive") (tstamp 129d1bfe-8e2e-48b6-8764-be37b79ac3ac))
-    (pad "2" thru_hole oval (at 3.96 0 180) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole oval (at 3.96 0 90) (size 3.16 4.1) (drill 1.7) (layers "*.Cu" "*.Mask")
       (net 2 "-VDC") (pinfunction "-") (pintype "passive") (tstamp 35fce961-deef-4fd0-ab34-cca8701a700c))
     (model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-396_A-41792-0002_1x02_P3.96mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -402,7 +402,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tstamp 2589795c-dd69-461b-a19a-74ff28456280)
-    (at 105.025 60.385)
+    (at 105.25 60.5)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "nocodephprobe.kicad_sch")
@@ -641,7 +641,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tstamp 2d5e632e-aea0-4fe1-b5df-492afa1cd5a0)
-    (at 111 64.5 -90)
+    (at 137.95 49.96 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "nocodephprobe.kicad_sch")
@@ -695,7 +695,7 @@
 
   (footprint "STX-3120-3B:KYCON_STX-3120-3B" (layer "F.Cu")
     (tstamp 348c3de5-d5e8-4c18-8ecb-39fcc09240fe)
-    (at 77.25 58.5 -90)
+    (at 72.5 56.5 -90)
     (property "Sheetfile" "nocodephprobe.kicad_sch")
     (property "Sheetname" "")
     (property "ki_description" "Temperature dependent resistor, negative temperature coefficient")
@@ -1131,7 +1131,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tstamp 5b13195c-3155-4e78-a0f4-47742568cfd4)
-    (at 111 60.5 -90)
+    (at 137.95 45.96 -90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "nocodephprobe.kicad_sch")
@@ -1185,7 +1185,7 @@
 
   (footprint "Capacitor_THT:C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3" (layer "F.Cu")
     (tstamp 5d96e9f2-34f3-4bf5-bee2-64cfb5306171)
-    (at 305.53 131.36 90)
+    (at 123.5 71.75 -90)
     (descr "C, Rect series, Radial, pin pitch=15.00mm, , length*width=18*6mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_3.pdf")
     (tags "C Rect series Radial pin pitch 15.00mm  length 18mm width 6mm Capacitor")
     (property "Field5" "")
@@ -1232,20 +1232,20 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 6c883bb0-91ed-4518-ba66-35ec83a544da))
     (fp_line (start 16.5 3) (end 16.5 -3)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a131b6ed-d589-49b1-a5a8-07dbb81b1999))
-    (pad "1" thru_hole circle (at 0 0 90) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole circle (at 0 0 270) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 11 "Net-(U2-INT)") (pintype "passive") (tstamp 037f19bf-920f-4904-9fcf-5d6ad383d723))
-    (pad "2" thru_hole circle (at 15 0 90) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole circle (at 15 0 270) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 10 "Net-(C4-Pad2)") (pintype "passive") (tstamp 83986255-1d02-4703-a3ca-5ab1faf07cb5))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L18.0mm_W6.0mm_P15.00mm_FKS3_FKP3.wrl"
+    (model "${KIPRJMOD}/wurth_pp_18_6_p15.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "F.Cu")
     (tstamp 6f91af01-b790-44e1-8708-f9bffa9e3dac)
-    (at 103.25 56.25)
+    (at 103.25 54.5)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "nocodephprobe.kicad_sch")
@@ -1547,7 +1547,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" (layer "F.Cu")
     (tstamp 9862d33d-d60b-4f07-9d03-8fe8094a5415)
-    (at 78.875 110.225)
+    (at 60.375 118.725)
     (descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "nocodephprobe.kicad_sch")
@@ -1857,7 +1857,7 @@
 
   (footprint "Connector_Coaxial:BNC_Amphenol_031-6575_Horizontal" (layer "F.Cu")
     (tstamp c596d748-21aa-455e-9c7c-a83bbe7f7429)
-    (at 93 70.35)
+    (at 92.6426 69.35)
     (descr "dual independently isolated BNC plug (https://www.amphenolrf.com/downloads/dl/file/id/2980/product/644/031_6575_customer_drawing.pdf)")
     (tags "Dual BNC Amphenol Horizontal")
     (property "Field5" "")
@@ -1951,7 +1951,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" (layer "F.Cu")
     (tstamp d03b8650-611e-4a7a-a05a-f6261ffbf42c)
-    (at 107.625 114.225)
+    (at 123.375 124.775 180)
     (descr "Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row")
     (tags "Through hole angled pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "nocodephprobe.kicad_sch")
@@ -2084,11 +2084,11 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8ecee09e-2b12-43a0-86b9-16b156641ea2))
     (fp_line (start 10.04 4.76) (end 10.04 5.4)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 945e25cd-3320-4df9-ae38-2d0da1ef2aaa))
-    (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+    (pad "1" thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 57 "Net-(J2-Pad5)") (pinfunction "1") (pintype "passive") (tstamp 270cec54-2275-44f3-ad86-411695a57e07))
-    (pad "2" thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+    (pad "2" thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 57 "Net-(J2-Pad5)") (pinfunction "2") (pintype "passive") (tstamp 2d3e91e2-7d57-4b54-a651-9d49678b222c))
-    (pad "3" thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
+    (pad "3" thru_hole oval (at 0 5.08 180) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask")
       (net 15 "Net-(R2-Pad2)") (pinfunction "3") (pintype "passive") (tstamp 2360ab6e-66c6-4295-8fc6-7ce49f3faa35))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Horizontal.wrl"
       (offset (xyz 0 0 0))
@@ -2353,87 +2353,90 @@
     )
   )
 
-  (gr_line (start 130.4505 63.3148) (end 123.0337 63.3148)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 01b6af87-ee16-4891-bd34-de84a12e8975))
-  (gr_line (start 65.8837 53.1294) (end 65.8837 59.6826)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 094bf0e7-b22c-494d-a499-b2561adf9379))
-  (gr_arc (start 123.0337 63.3148) (mid 120.465347 62.250953) (end 119.4015 59.6826)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 0c9568fd-8d7f-4187-aca9-75bc98d49231))
-  (gr_arc (start 67.7252 134.003) (mid 70.293553 135.066847) (end 71.3574 137.6352)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 0cb7c18d-692f-4c1d-a6d4-99c00304a20b))
-  (gr_line (start 54.8347 63.3148) (end 54.8347 69.038937)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 1fa7da70-25eb-4e67-803f-4bf6a9b9f68c))
-  (gr_arc (start 56.018986 82.934969) (mid 54.785601 76.041603) (end 54.8347 69.038937)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 25154fd1-2537-442a-af39-f7ab1a36fec4))
-  (gr_line (start 71.3574 141.75) (end 92.6426 141.75)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 2a854eae-a9b2-4fbb-828d-77fa467b846c))
-  (gr_arc (start 113.9278 137.6352) (mid 114.991647 135.066847) (end 117.56 134.003)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 2df0578e-1c91-42c3-934f-4b10418bcf78))
-  (gr_circle (center 122.8051 67.1502) (end 124.3926 67.1502)
-    (stroke (width 0.003225) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 30ae11ee-681f-4b27-b689-2eed8d83d032))
-  (gr_circle (center 62.4801 67.1502) (end 64.0676 67.1502)
-    (stroke (width 0.003225) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 3eb2cb74-5b3a-456e-a535-444a9d227806))
-  (gr_line (start 119.4015 53.1294) (end 92.6426 53.1294)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 416163bd-564b-4be5-9264-cf95a7065842))
-  (gr_line (start 92.6426 53.1294) (end 65.8837 53.1294)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 42c07ad2-4162-4769-bcf1-32c79206b973))
-  (gr_circle (center 68.0427 129.8628) (end 69.6302 129.8628)
-    (stroke (width 0.003225) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 511b07de-b6a6-4750-a159-ecf8acd7f7af))
-  (gr_line (start 130.4505 69.038937) (end 130.4505 63.3148)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 540acb81-3d84-4a56-822b-273dc4a5d7d1))
-  (gr_arc (start 130.4505 69.038937) (mid 130.499599 76.041603) (end 129.266214 82.934969)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 6359d0f0-8e1a-4aa9-878f-679ed545e8ed))
-  (gr_line (start 119.4015 59.6826) (end 119.4015 53.1294)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 6a3030e3-3db0-4d4c-849b-ceb21b2ec7be))
-  (gr_line (start 58.2891 134.003) (end 67.7252 134.003)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 77af44a5-a1aa-4e56-80f8-66f5b3f4f83d))
-  (gr_arc (start 65.8837 59.6826) (mid 64.819853 62.250953) (end 62.2515 63.3148)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 87d3ee64-7ecc-4cff-935c-e9723fd73232))
-  (gr_arc (start 126.9961 134.003) (mid 126.546231 108.39853) (end 129.266214 82.934969)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 8a221a17-d407-4eee-bbe3-03b9ea0fd92d))
-  (gr_line (start 117.56 134.003) (end 126.9961 134.003)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp 8e2ec837-ac0e-4649-ba96-ba5a64a73ae7))
-  (gr_arc (start 56.018986 82.934969) (mid 58.738969 108.39853) (end 58.2891 134.003)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp bba4c4c2-0bad-4a38-9375-1cd70798c9e1))
-  (gr_circle (center 117.2425 129.8628) (end 118.83 129.8628)
-    (stroke (width 0.003225) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp be829bdb-4987-4ba0-826e-20c73ee9167d))
-  (gr_line (start 113.9278 141.75) (end 113.9278 137.6352)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp d7c33b61-941f-467f-a3b2-71bc59c5e984))
-  (gr_line (start 71.3574 137.6352) (end 71.3574 141.75)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp dae8872e-bd08-4ed7-b077-d7ec1f3cd163))
-  (gr_line (start 92.6426 141.75) (end 113.9278 141.75)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp eb1db128-0d49-4604-a9ab-0f035b105afc))
-  (gr_line (start 62.2515 63.3148) (end 54.8347 63.3148)
-    (stroke (width 0.003225) (type solid)) (layer "Edge.Cuts") (tstamp fd06e773-898c-4f42-8816-9d70e2c4592b))
+  (gr_line (start 53.9421 62.1854) (end 53.9421 67.909537)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 0bd23f45-1dc7-491f-82c5-3657ed099535))
+  (gr_arc (start 116.6674 132.8736) (mid 114.099047 131.809753) (end 113.0352 129.2414)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 1852c7cb-f574-46d7-b0bb-7386e6661a02))
+  (gr_circle (center 116.3499 128.7334) (end 117.9374 128.7334)
+    (stroke (width 0.127) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 1a0cee7f-07b7-48cf-b443-49ac4c631811))
+  (gr_line (start 64.9911 52) (end 64.9911 58.5532)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 1dece7d1-0fd8-4084-8bd7-c6f7b2ffce65))
+  (gr_arc (start 129.5579 67.909537) (mid 129.606999 74.912203) (end 128.373614 81.805569)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 29ed4190-ed31-4b4a-b554-3d40a7c8841c))
+  (gr_arc (start 126.1035 132.8736) (mid 125.653631 107.26913) (end 128.373614 81.805569)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 346c4f17-97cd-4d18-ab1c-8b30f371703b))
+  (gr_line (start 61.3589 62.1854) (end 53.9421 62.1854)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 392b385b-d25f-47f7-b19d-19b04bee8167))
+  (gr_arc (start 55.126386 81.805569) (mid 57.846369 107.26913) (end 57.3965 132.8736)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 41a65c54-7d18-4c2a-ac36-9d9534dd946c))
+  (gr_line (start 129.5579 62.1854) (end 122.1411 62.1854)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 468a92bf-5089-4aa1-9782-0acaf8fbd7d6))
+  (gr_circle (center 67.1501 128.7334) (end 68.7376 128.7334)
+    (stroke (width 0.127) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 573d24c9-8741-4296-b0c1-486bab75ff96))
+  (gr_line (start 70.4648 129.2414) (end 70.4648 119.1576)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 5bcd9e6a-922d-4b29-8ed5-efaacbf96b4c))
+  (gr_line (start 118.5089 52) (end 91.75 52)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 5bd41a86-244b-45c9-bade-8f805adee16e))
+  (gr_arc (start 70.4648 119.1576) (mid 72.882634 113.320434) (end 78.7198 110.9026)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 5e49208e-edf1-4f00-901b-6f9842972b16))
+  (gr_arc (start 104.7802 110.9026) (mid 110.617366 113.320434) (end 113.0352 119.1576)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 646577c8-5292-442b-8599-fda33fd0a176))
+  (gr_circle (center 61.5875 66.0208) (end 63.175 66.0208)
+    (stroke (width 0.127) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 730879b3-1f80-4d43-b125-39c9830b3784))
+  (gr_line (start 78.7198 110.9026) (end 104.7802 110.9026)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 783d3f39-4688-40d4-af60-c8806c8b61a8))
+  (gr_arc (start 64.9911 58.5532) (mid 63.927253 61.121553) (end 61.3589 62.1854)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 818c2931-54c3-4aa8-a3fc-6a62c11e9f5b))
+  (gr_line (start 57.3965 132.8736) (end 66.8326 132.8736)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp 8d93c2c5-3266-4a49-81fd-bebea6fe2494))
+  (gr_line (start 116.6674 132.8736) (end 126.1035 132.8736)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp b4e91a4a-1dfd-4076-9f70-dbef3ea48fe5))
+  (gr_arc (start 122.1411 62.1854) (mid 119.572747 61.121553) (end 118.5089 58.5532)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp b66f2303-3309-4c86-bd3b-f709888dedf3))
+  (gr_line (start 113.0352 119.1576) (end 113.0352 129.2414)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp bb2ee2cd-4e7d-4737-baf3-532c8954bb9c))
+  (gr_line (start 91.75 52) (end 64.9911 52)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp caa86907-4740-4a4a-a0c1-54e7b1ee65da))
+  (gr_circle (center 121.9125 66.0208) (end 123.5 66.0208)
+    (stroke (width 0.127) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp cad227a7-8795-47ff-8e25-ba41855af661))
+  (gr_arc (start 55.126386 81.805569) (mid 53.893001 74.912203) (end 53.9421 67.909537)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp e97402c6-e07d-4a47-a2da-f902261b5572))
+  (gr_line (start 129.5579 67.909537) (end 129.5579 62.1854)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp ea12ae55-7d8d-4e76-a2e2-d1fd392e10c8))
+  (gr_arc (start 70.4648 129.2414) (mid 69.400953 131.809753) (end 66.8326 132.8736)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp eb4eabf8-414f-4329-887a-b00ee40f8148))
+  (gr_line (start 118.5089 58.5532) (end 118.5089 52)
+    (stroke (width 0.127) (type solid)) (layer "Edge.Cuts") (tstamp f00d83ab-83e6-4475-922f-bea96608ee9c))
 
-  (group "" (id 823050d2-450d-465f-bc0d-48dff4bcd92f)
+  (group "" (id 6028cd12-b3fd-41cb-9bd4-ec71a1f00faa)
     (members
-      01b6af87-ee16-4891-bd34-de84a12e8975
-      094bf0e7-b22c-494d-a499-b2561adf9379
-      0c9568fd-8d7f-4187-aca9-75bc98d49231
-      0cb7c18d-692f-4c1d-a6d4-99c00304a20b
-      1fa7da70-25eb-4e67-803f-4bf6a9b9f68c
-      25154fd1-2537-442a-af39-f7ab1a36fec4
-      2a854eae-a9b2-4fbb-828d-77fa467b846c
-      2df0578e-1c91-42c3-934f-4b10418bcf78
-      30ae11ee-681f-4b27-b689-2eed8d83d032
-      3eb2cb74-5b3a-456e-a535-444a9d227806
-      416163bd-564b-4be5-9264-cf95a7065842
-      42c07ad2-4162-4769-bcf1-32c79206b973
-      511b07de-b6a6-4750-a159-ecf8acd7f7af
-      540acb81-3d84-4a56-822b-273dc4a5d7d1
-      6359d0f0-8e1a-4aa9-878f-679ed545e8ed
-      6a3030e3-3db0-4d4c-849b-ceb21b2ec7be
-      77af44a5-a1aa-4e56-80f8-66f5b3f4f83d
-      87d3ee64-7ecc-4cff-935c-e9723fd73232
-      8a221a17-d407-4eee-bbe3-03b9ea0fd92d
-      8e2ec837-ac0e-4649-ba96-ba5a64a73ae7
-      bba4c4c2-0bad-4a38-9375-1cd70798c9e1
-      be829bdb-4987-4ba0-826e-20c73ee9167d
-      d7c33b61-941f-467f-a3b2-71bc59c5e984
-      dae8872e-bd08-4ed7-b077-d7ec1f3cd163
-      eb1db128-0d49-4604-a9ab-0f035b105afc
-      fd06e773-898c-4f42-8816-9d70e2c4592b
+      0bd23f45-1dc7-491f-82c5-3657ed099535
+      1852c7cb-f574-46d7-b0bb-7386e6661a02
+      1a0cee7f-07b7-48cf-b443-49ac4c631811
+      1dece7d1-0fd8-4084-8bd7-c6f7b2ffce65
+      29ed4190-ed31-4b4a-b554-3d40a7c8841c
+      346c4f17-97cd-4d18-ab1c-8b30f371703b
+      392b385b-d25f-47f7-b19d-19b04bee8167
+      41a65c54-7d18-4c2a-ac36-9d9534dd946c
+      468a92bf-5089-4aa1-9782-0acaf8fbd7d6
+      573d24c9-8741-4296-b0c1-486bab75ff96
+      5bcd9e6a-922d-4b29-8ed5-efaacbf96b4c
+      5bd41a86-244b-45c9-bade-8f805adee16e
+      5e49208e-edf1-4f00-901b-6f9842972b16
+      646577c8-5292-442b-8599-fda33fd0a176
+      730879b3-1f80-4d43-b125-39c9830b3784
+      783d3f39-4688-40d4-af60-c8806c8b61a8
+      818c2931-54c3-4aa8-a3fc-6a62c11e9f5b
+      8d93c2c5-3266-4a49-81fd-bebea6fe2494
+      b4e91a4a-1dfd-4076-9f70-dbef3ea48fe5
+      b66f2303-3309-4c86-bd3b-f709888dedf3
+      bb2ee2cd-4e7d-4737-baf3-532c8954bb9c
+      caa86907-4740-4a4a-a0c1-54e7b1ee65da
+      cad227a7-8795-47ff-8e25-ba41855af661
+      e97402c6-e07d-4a47-a2da-f902261b5572
+      ea12ae55-7d8d-4e76-a2e2-d1fd392e10c8
+      eb4eabf8-414f-4329-887a-b00ee40f8148
+      f00d83ab-83e6-4475-922f-bea96608ee9c
     )
   )
 )
