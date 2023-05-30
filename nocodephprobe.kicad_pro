@@ -191,7 +191,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|457200|1409700|2de7fc01-3cd6-4ade-9828-f38d5740a26a|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
