@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|155960000|62924694|767265e3-3a7c-44c4-9266-048da4a3fe4e|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -499,6 +501,6 @@
   ],
   "text_variables": {
     "SITE": "github.com/cristoper/nocodephprobe",
-    "VERSION": "0.1.0"
+    "VERSION": "0.2.0"
   }
 }
