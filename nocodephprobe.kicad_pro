@@ -498,7 +498,6 @@
     ]
   ],
   "text_variables": {
-    "SITE": "github.com/cristoper/nocodephprobe",
-    "VERSION": "0.2.0"
+    "SITE": "github.com/cristoper/nocodephmeter"
   }
 }
