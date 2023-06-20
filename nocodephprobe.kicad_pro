@@ -56,8 +56,7 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|155954000|64361808|767265e3-3a7c-44c4-9266-048da4a3fe4e|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|157048500|60200333|a9b27183-02ca-47d6-9c06-2b398217339e|00000000-0000-0000-0000-000000000000"
+        "silk_over_copper|155960000|65743705|767265e3-3a7c-44c4-9266-048da4a3fe4e|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -94,7 +93,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -176,9 +175,7 @@
       ],
       "track_widths": [
         0.0,
-        0.254,
-        0.381,
-        0.508
+        0.254
       ],
       "via_dimensions": [
         {
@@ -197,7 +194,7 @@
   },
   "erc": {
     "erc_exclusions": [
-      "power_pin_not_driven|457200|1447800|2de7fc01-3cd6-4ade-9828-f38d5740a26a|00000000-0000-0000-0000-000000000000|||"
+      "power_pin_not_driven|457200|1409700|2de7fc01-3cd6-4ade-9828-f38d5740a26a|00000000-0000-0000-0000-000000000000|||"
     ],
     "meta": {
       "version": 0
